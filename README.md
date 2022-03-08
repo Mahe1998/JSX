@@ -1,2 +1,2 @@
-# jsx
+# JSX
 Created with CodeSandbox
