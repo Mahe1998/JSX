@@ -6,13 +6,27 @@ const lname = "S";
 const currentDate = new Date();
 //console.log(currentDate);
 
-ReactDOM.render(
+/* ReactDOM.render(
   <div>
     <h1>Hello {fname + " " + lname}!</h1>
     <h3>I am 24 years old.</h3>
     <p>The random number generated is {Math.round(Math.random() * 10)}.</p>
     <p>Created by {fname + " " + lname}.</p>
     <p>Copyright {currentDate.getFullYear()}</p>
+  </div>,
+  document.getElementById("root")
+); */
+
+ReactDOM.render(
+  <div>
+    <h1 className="heading">My Favorite Foods</h1>
+    <ul>
+      <li>prawn</li>
+      <li>Chickhen</li>
+      <li>Fish</li>
+      <li>Egg</li>
+      <li>Crab</li>
+    </ul>
   </div>,
   document.getElementById("root")
 );
