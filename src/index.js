@@ -69,3 +69,24 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 ); */
+
+//Inline Styling for React Elements.
+//"style" attribute value is "JSON object".
+/* ReactDOM.render(
+  <h1 style={{ color: "orange" }}>Hello World!</h1>,
+  document.getElementById("root")
+); */
+
+const customStyle = {
+  color: "Red",
+  fontSize: "20px",
+  border: "1px solid black"
+};
+
+//To update the color of <h1>.
+customStyle.color = "Blue";
+
+ReactDOM.render(
+  <h1 style={customStyle}>Hello World!</h1>,
+  document.getElementById("root")
+);
